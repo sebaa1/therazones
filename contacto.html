@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contacto - THE RAZONES</title>
+ </head>
+
+ <body>
+    <h1>THE RAZONES</h1>
+    <div class="header">
+        <div class="header-right">
+          <a href="index.html">Inicio</a>
+          <a href="merch.html">Merch</a>
+          <a href="musica.html">Música</a>
+          <a href="eventos.html">Eventos</a>
+          <a class="active" href="contacto.html">Contacto</a>
+        </div>
+      </div>
+    <h4> Si tenés alguna duda rellená este formulario y te responderemos a la brevedad:</h4>
+            <form>
+                <div>
+                    <label>Nombre completo: </label><input type="text" required>
+                </div>
+                <br>
+                <div>
+                    <label>Correo electrónico: </label><input type="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="motivos">Motivo:</label>
+                        <select id="motivos">
+                            <option value="">Elegí una opción
+                            <option value="prensa">Prensa
+                            <option value="publicidad">Publicidad
+                            <option value="duda">Duda
+                            <option value="otro">Otro
+                        </select>
+                </div>
+                <br>
+                <div>
+                    <textarea placeholder="Escribinos tu mensaje" cols="45" rows="7"></textarea>
+                </div>
+            <input type="submit" value="Enviar">
+            </form>
+            <br>
+            <footer>© The Razones 2024</footer>
+ </body>
+</html>
